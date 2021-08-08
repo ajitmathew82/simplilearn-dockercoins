@@ -1,2 +1,2 @@
 FROM ruby:alpine
-RUN apk add build-base && gem install sinatra && gem install thin
+RUN sudo apk add build-base && sudo gem install sinatra && sudo gem install thin
